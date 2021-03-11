@@ -1,3 +1,7 @@
 import matplotlib.image as mpimg
+import matplotlib.pyplot as plt
 
-path_to_file = 'shopee_data/train_images/0000a68812bc7e98c42888dfb1c07da0.jpg'
+path_to_file = '0c5aeb7dd48a110b822c4286325183b2.jpg'
+img = mpimg.imread(path_to_file)
+
+plt.imshow(img)
